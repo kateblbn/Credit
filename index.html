@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Credit</title>
+</head>
+<body>
+    <section class="credit">
+        <nav>
+            <a href="#">home</a>
+        </nav>
+        <div class="credit__title">We offer</div>
+        <div class="credit__wrapper">
+            <div class="credit__wrapper-ap">
+                <div class="credit__amount">
+                    <label for="dol">Amount requested</label> <br>
+                    <input type="range" id="dol" value="100" name="dol"
+                        min="0" max="5000"> 
+                    <span class="show__dol"></span>
+                    <span class="symbol">$</span>
+                </div>
+                <div class="credit__period">
+                    <label for="credit__period-month">Period</label>    <br>
+                    <input type="range" id="month" value="1"    name="month"
+                        min="0" max="24"> 
+                    <span class="show__value"></span>
+                    <span class="symbol">months</span>
+                </div>
+            </div>
+        
+            <div class="credit__whole-amount">
+                <div class="amount">the whole amount</div>
+                <span class="amount__result"></span>
+                <span class="symbol">$</span>
+            </div>
+        
+            <div class="credit__percent">
+                <div class="procent"> percent</div>
+                <span class="amount__procent"></span>
+                <span class="symbol">%</span>
+
+            </div>
+        </div>
+        <div class="credit__text">
+            <div>minimum loan amount 100 $ </div>
+            <div>maximum loan amount 5000 $</div>  
+            <div>if you take out a loan for a period of more than six months, the interest rate drops by 0.5 percent</div>
+            <div> if you take out a loan for a period of more than twelve months, the interest rate drops by 1 percent </div>
+            <div> if you take a loan for two years, the interest rate drops by 1.5 percent </div>
+        </div>
+    </section>
+
+
+    <script src="js.js"></script>
+</body>
+</html>

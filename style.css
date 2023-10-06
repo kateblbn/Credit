@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-Bold.ttf)
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=range]  {
+    width: 200px;
+    background-color: rgb(190, 219, 219);
+    height: 5px;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    background: #121313;
+    border: 1px solid rgb(9, 8, 9);
+    border-radius: 10px/100%;
+    cursor: pointer;
+    width:10px;
+    height: 15px;
+    -webkit-appearance: none;
+  }
+.credit {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ebf1f3;
+    padding-bottom: 70px;
+    .credit__title {
+        margin: 15px 0;
+    font-size: 45px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(171, 231, 231);
+    }
+    .credit__wrapper {
+        margin: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        justify-content: space-between;
+    }
+    .credit__wrapper-ap {
+        padding: 0 60px;
+    }
+    .credit__period {
+        margin: 10px 0;
+    }
+    .credit__text {
+        padding: 0 25px;
+        font-size: 16px;
+    }
+    
+}
